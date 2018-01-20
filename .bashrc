@@ -1,5 +1,8 @@
-export PS1="\e[0m[ \[\e[36m\]\u\[\e[0m\]@\[\e[35m\]\h\[\e[0m\] ] \W \[\e[31m\]\\$\[\e[0m\] "
-export PROMPT=$PS1
+blue="\[\e[36m\]"
+reset="\[\e[0m\]"
+purple="\[\e[35m\]"
+red="\[\e[31m\]"
+export PS1="$reset[ $blue\u$reset@$purple\h$reset ] \W $red\$$reset "
 
 export CLICOLOR='true'
 export LSCOLORS="gxfxcxdxcxegedabagacad"
