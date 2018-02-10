@@ -15,3 +15,9 @@ autocmd BufReadPost *
 :set backspace=indent,eol,start
 :set encoding=utf-8
 :syntax on
+
+autocmd BufReadPost *.jsx 
+\ set tabstop=2 shiftwidth=2 noexpandtab ai
+
+autocmd BufReadPost *.js
+\ set tabstop=2 shiftwidth=2 noexpandtab ai
