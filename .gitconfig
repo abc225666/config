@@ -1,0 +1,10 @@
+[user]
+    email = qwe50120@gmail.com
+    name = Ting-Rui, Wang
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = true
+    pager = true
