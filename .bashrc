@@ -1,7 +1,7 @@
-blue="\[\e[36m\]"
-reset="\[\e[0m\]"
-purple="\[\e[35m\]"
-red="\[\e[31m\]"
+blue="\[\033[36m\]"
+reset="\[\033[0m\]"
+purple="\[\033[35m\]"
+red="\[\033[31m\]"
 export PS1="$reset[ $blue\u$reset@$purple\h$reset ] \W $red\$$reset "
 
 export CLICOLOR='true'
