@@ -16,8 +16,8 @@ autocmd BufReadPost *
 :set encoding=utf-8
 :syntax on
 
-autocmd BufReadPost *.jsx 
+autocmd BufReadPost,BufNewfile *.jsx,*.js
 \ set tabstop=2 shiftwidth=2 noexpandtab ai
 
-autocmd BufReadPost *.js
-\ set tabstop=2 shiftwidth=2 noexpandtab ai
+autocmd BufReadPost,BufNewfile *.yaml,*.yml
+\ set tabstop=2 shiftwidth=2 expandtab
