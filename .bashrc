@@ -19,3 +19,4 @@ export LSCOLORS="gxfxcxdxcxegedabagacad"
 #export PATH="$PATH:$HOME/.rvm/bin"
 export EDITOR=vim
 alias se='sudoedit'
+alias ls='ls --color=auto'
