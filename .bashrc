@@ -1,12 +1,11 @@
-blue="\[\033[36m\]"
-reset="\[\033[0m\]"
-purple="\[\033[35m\]"
-red="\[\033[31m\]"
+blue='\[\033[36m\]'
+reset='\[\033[0m\]'
+purple='\[\033[35m\]'
+red='\[\033[31m\]'
 export PS1="${reset}[ ${blue}\u${reset}@${purple}\h${reset} ] \W ${red}\$${reset} "
 
 
 export CLICOLOR='true'
-export LSCOLORS="gxfxcxdxcxegedabagacad"
 
 #export LESS_TERMCAP_mb=$(printf '\e[01;31m') # enter blinking mode – red
 #export LESS_TERMCAP_md=$(printf '\e[01;35m') # enter double-bright mode – bold, magenta
